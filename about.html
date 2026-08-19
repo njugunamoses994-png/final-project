@@ -1,43 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Moses | About</title>
   </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link href="styles2.css" rel="stylesheet" />
-    <title> ABOUT ME</title>
-</head>
-<body>     
-      <h1>MOSES ABOUT</h1>
-      <nav>
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="projects.html">PROJECTS</a>
-      </nav>
+  <body>
+    <header>
+      <div class="wrap">
+        <h1>About Moses</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html" class="active">About</a>
+          <a href="projects.html">Projects</a>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-         <img src="https://scontent.fnbo10-1.fna.fbcdn.net/v/t1.15752-9/774136337_1066134515831473_7014535519861481068_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=fc17b8&_nc_ohc=ID2qoprKV8EQ7kNvwFNxe8E&_nc_oc=AdroAGIN4rdrpGT1sGD19jm9Sur9qja6vk2vA9pLRT-G5AdfnlFPw-zpoYhvPSYOVhw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_ss=7a22e&oh=03_Q7cD6AFXeXCGpW-tsWhIfsPXGdrX64DflO1n-xoFCP7K5KjlhQ&oe=6AACC979" width="200px"">
-          <div class="card">
-            <h2>INTERESTS AND ASPIRATIONS</h2>
-            <p>Currently what i want to do is create websites and sell them or in future i could create an app and start my own company or work as a software developer in other companies</p>
-            <p>Used to be good at football as a midfielder but i got an injury.</p> 
+      <div class="wrap">
+        <section class="card bio">
+          <div class="portrait" aria-hidden="true">M</div>
+          <div>
+            <h2>Biography</h2>
+            <p>
+              My name is Moses. I am a student at Lenana School, where I am
+              learning IT and how to build websites with HTML and CSS.
+            </p>
+            <p>
+              I used to play football as a midfielder. An injury stopped that
+              part of my life, but I still care about sport, games, and
+              competing in a smart way — whether that is on a pitch, in a
+              Scrabble match, or watching Formula 1.
+            </p>
+            <p>
+              I want to create websites and sell them, and later I may build an
+              app, start my own company, or work as a software developer.
+            </p>
           </div>
-          <div class="card">
-            <h2>WHAT IM GOOD AT</h2>
-            <ol>
-              <li>Gaming.</li>
-              <li>Playing scrabble.</li>
-              <li>School work.</li>
-            </ol>
-          </div>
-          <img src="formula1.jfif">
+        </section>
+
+        <div class="grid">
+          <article class="card interest">
+            <img
+              src="formula1.jfif"
+              alt="Formula 1 racing cars on the track"
+            />
+            <h2>Formula 1</h2>
+            <p>
+              I follow Formula 1. Speed, teamwork, and careful strategy in the
+              sport interest me, and they remind me that small details matter —
+              the same idea I try to use when I write code.
+            </p>
+          </article>
+          <article class="card interest">
+            <div class="accent-bar"></div>
+            <h2>Football</h2>
+            <p>
+              I was a midfielder and enjoyed reading the game, passing, and
+              working with a team. Injury ended that chapter, but the habit of
+              practising and staying focused still helps me in school and in
+              IT.
+            </p>
+          </article>
+          <article class="card interest">
+            <div class="accent-bar"></div>
+            <h2>Gaming</h2>
+            <p>
+              Gaming is one of the things I am good at. It is how I relax, solve
+              problems, and stay curious about how digital products feel to
+              use.
+            </p>
+          </article>
+          <article class="card interest">
+            <div class="accent-bar"></div>
+            <h2>Scrabble and school work</h2>
+            <p>
+              I enjoy Scrabble because it rewards vocabulary and planning. I
+              also take school work seriously at Lenana School, especially the
+              IT skills I am using to grow as a developer.
+            </p>
+          </article>
+          <article class="card">
+            <div class="accent-bar"></div>
+            <h2>Interests and aspirations</h2>
+            <p>
+              Right now I want to design websites people can actually use, and
+              sell that work. In the future I could create an app, start a
+              company, or join a team as a software developer.
+            </p>
+          </article>
         </div>
-      </section>
+      </div>
     </main>
-        <footer> 
-            <p>&copy;made by Moses,2026</p>
-        </footer>
-    
-</body>
+    <footer>
+      <p>&copy; Made by Moses, 2026</p>
+    </footer>
+  </body>
 </html>
