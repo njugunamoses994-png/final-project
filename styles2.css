@@ -1,69 +1,71 @@
 body {
   margin: 0;
-  background-color: beige;
+  background-color:black;
   display: flex;
   flex-direction: column;
   height: 100vh;
-  
 }
 header {
-  background-color: #bae7f2;
+  background-color:maroon;
   padding: 10px;
 }
 h1 {
-  background-color: #bae7f2;
+  background-color: maroon;
   margin-top: 0;
   font-size: 30px;
-  font-family: "Sekuya", system-ui; 
+  font-family: "Sekuya", system-ui;
+  color: white;
 }
 a {
   text-decoration: none;
   font-size: 20px;
   display: inline-block;
   margin-right: 8px;
-  color: #cc998d;
+  color: white;
   padding: 5px;
   border-radius: 5px;
 }
 
 a:hover {
-  background-color: #007fbf;
+  background-color: yellow;
   color: white;
 }
 .card {
-  background-color: #bae7f2;
+  background-color: maroon;
   width: 400px;
   margin-top: 10px;
-  padding: 5px;
   border-radius: 5px;
   margin-bottom: 40px;
+
 }
 h2 {
   margin-top: 0;
   font-size: 30px;
-  font-family: "Sekuya", system-ui; 
+  font-family: "Sekuya", system-ui;
+  color: white;
 }
 footer p {
   text-align: center;
 }
-.box {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+main {
+  flex: 1;
 }
-main{
-    flex: 1;
+footer {
+  background-color: maroon;
 }
-footer{
-    background-color: #bae7f2;
-}
-P{
-  font-family: "Germania One", system-ui; 
-}
-ol{
+P {
   font-family: "Germania One", system-ui;
+  color: white;
 }
-h3{
-   font-family: "Germania One", system-ui;
-
-
+ol {
+  font-family: "Germania One", system-ui;
+  color: white;
+}
+h3 {
+  font-family: "Sekuya", system-ui;
+  font-size: 30px;
+  color: white;
+}
+header a{
+    background-color: maroon;
+}

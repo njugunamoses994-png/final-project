@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  background-color: beige;
+  background-color:lightslategray;
   display: flex;
   flex-direction: column;
   height: 100vh;
   
 }
 header {
-  background-color: #bae7f2;
+  background-color:#bae7f2;
   padding: 10px;
 }
 h1 {
@@ -64,6 +64,7 @@ ol{
   font-family: "Germania One", system-ui;
 }
 h3{
-   font-family: "Germania One", system-ui;
-
+   font-family: "Sekuya", system-ui;
+   font-size: 30px;
+}
 
