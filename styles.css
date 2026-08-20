@@ -134,6 +134,7 @@ main {
 .portrait {
   width: 100%;
   aspect-ratio: 1;
+  object-fit: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,6 +160,13 @@ main {
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 14px;
+}
+
+.interest img.full {
+  max-height: none;
+  height: auto;
+  object-fit: contain;
+  background-color: #111;
 }
 
 .accent-bar {
